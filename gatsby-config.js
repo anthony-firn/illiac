@@ -90,19 +90,20 @@ module.exports = {
         name: "images",
       },
     },
-    `gatsby-plugin-image`,
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads",
-            },
-          },
+          // {
+          //   resolve: "gatsby-remark-relative-images-v2",
+          //   options: {
+          //     name: "uploads",
+          //   },
+          // },
+          "gatsby-remark-relative-images-v2",
           {
             resolve: "gatsby-remark-images",
             options: {
