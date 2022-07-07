@@ -1,11 +1,8 @@
 <p align="center">
-  <a href="https://cara.lekoarts.de">
-    <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
-  </a>
+  <svg width="300" height="100">       
+     <image xlink:href="https://raw.githubusercontent.com/anthony4tner/illi.ac-logo/main/vector/logo-slogan-icon-left/default-background.svg" src="" width="300" height="300" transform="translate(0 -95)"/>    
+  </svg>
 </p>
-<h1 align="center">
-  Gatsby Starter Portfolio: Cara
-</h1>
 
 <p align="center">
   <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara/blob/master/LICENSE">
